@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "things",
+  "info": {
+    "name": "Things"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
